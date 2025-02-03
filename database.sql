@@ -1,0 +1,11 @@
+-- CREATE DATABASE IF NOT EXISTS flask_login_2024_2025;
+USE flask_login_2024_2025;
+
+-- CREATE TABLE user(
+--     id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+--     username VARCHAR(30) NOT NULL,
+--     password VARCHAR(255) NOT NULL,
+--     fullname VARCHAR(50) NOT NULL
+-- );
+
+INSERT INTO user VALUES(NULL, 'root', 'scrypt:32768:8:1$VJs22XNhqYo1o7iD$8b8c0c4134792dc43bcfaae76d2ba8425e3db4c4a5fdf1997f2165fc8281c0fc6b740e7bc76af3af9514187db05b5ae4599e4175d49aab72881a7960d4f95268', 'Root Root')
